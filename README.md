@@ -1,4 +1,24 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Frontend React Native - Production Management with OCR
+
+Mobile application untuk management produksi dengan fitur OCR scanning menggunakan React Native.
+
+## 🚀 Fitur
+
+- ✅ Dashboard dengan statistik produksi harian
+- ✅ CRUD Operations (Create, Read, Update, Delete)
+- ✅ OCR Camera untuk scan data suhu dan berat
+- ✅ Master data (Groups, Shifts, Production Lines)
+- ✅ Form input dengan date picker dan dropdown
+- ✅ Real-time data dari backend REST API
+
+## 📱 Teknologi
+
+- React Native 0.83
+- React Navigation (Stack & Bottom Tabs)
+- React Native Vision Camera (untuk OCR)
+- Axios (HTTP Client)
+- React Native Vector Icons
+- React Native Date Picker
 
 # Getting Started
 
