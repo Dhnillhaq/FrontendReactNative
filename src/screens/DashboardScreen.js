@@ -177,13 +177,17 @@ const DashboardScreen = ({navigation}) => {
                 color="#00BCD4"
               />
             </View>
-          </View>
+          </View>/
         )}
 
         {/* Recent Operations Section */}
         <View style={styles.operationsSection}>
           <View style={styles.operationsHeader}>
             <Text style={styles.sectionTitle}>Recent Operations</Text>
+            <TouchableOpacity
+              onPress={() => navigation.navigate('OperationForm')}>
+              <Icon name="add-circle" size={28} color="#007AFF" />
+            </TouchableOpacity>
           </View>
 
           {operations.length === 0 ? (
